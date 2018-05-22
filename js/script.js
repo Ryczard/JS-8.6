@@ -9,3 +9,5 @@ if (value > 0){
 } else {
 	console.log('Wynik równy 0');
 }
+var outcome = value >= 0 ? 'Wynik jest nieujemny' : 'Wynik jest ujemny';
+console.log(outcome);
